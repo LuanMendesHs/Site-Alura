@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
     <title>Primeiro Site Alura</title>
 </head>
 <body>
     <header>
-        <h1 class="titulo-principal">Barbearia Alura</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="produtos.html">Produtos</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="caixa">
+            <img id="banner" src="banner.jpg">
+            <nav>
+                <h1 class="titulo-principal">Barbearia Alura</h1>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <img id="banner" src="banner.jpg">
+    
     <div class="principal">
         <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
 
@@ -32,7 +36,7 @@
     <div class="beneficios">
         <h3 class="titulo-centralizado">Benefícios</h3>
 
-        <ul>
+        <ul class="ul-beneficios">
             <li class="itens">Atendimento aos Clientes</li>
             <li class="itens">Espaço Diferenciado</li>
             <li class="itens">Localização</li>

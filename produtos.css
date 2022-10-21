@@ -23,16 +23,18 @@ nav li {
 nav a {
     text-transform: uppercase;
     color: #000000;
+    text-shadow: 0 0 0.3em #ffffff, 0 0 0.3em #ffffff;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 25px;
     text-decoration: none;
 }
 
 nav a:hover {
     text-transform: uppercase;
-    color: #c78c19;
+    color: #f1f1f1;
+    text-shadow: 0 0 0.3em #000000, 0 0 0.3em #000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -52,10 +54,12 @@ nav a:hover {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+    box-shadow: 0 0 0.3em #000000, 0 0 0.3em #000000;
 }
 
 .produtos li:hover {
     border-color: #c78c19;
+    box-shadow: 0 0 0.3em #c78c19, 0 0 0.3em #c78c19;
 }
 
 .produtos li:hover h2 {
@@ -64,6 +68,7 @@ nav a:hover {
 
 .produtos li:active {
     border-color: #088c19;
+    box-shadow: 0 0 0.3em #088c19, 0 0 0.3em #088c19;
 }
 
 .produtos h2 {

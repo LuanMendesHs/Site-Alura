@@ -38,54 +38,6 @@ nav a:hover {
   text-decoration: none;
 }
 
-.produtos {
-  width: 940px;
-  margin: 0 auto;
-  padding: 50px 0;
-}
-
-.produtos li {
-  display: inline-block;
-  text-align: center;
-  width: 30%;
-  vertical-align: top;
-  margin: 0 1.5%;
-  padding: 30px 20px;
-  box-sizing: border-box;
-  border: 2px solid #000000;
-  border-radius: 10px;
-  box-shadow: 0 0 0.3em #000000, 0 0 0.3em #000000;
-}
-
-.produtos li:hover {
-  border-color: #c78c19;
-  box-shadow: 0 0 0.3em #c78c19, 0 0 0.3em #c78c19;
-}
-
-.produtos li:hover h2 {
-  font-size: 34px;
-}
-
-.produtos li:active {
-  border-color: #088c19;
-  box-shadow: 0 0 0.3em #088c19, 0 0 0.3em #088c19;
-}
-
-.produtos h2 {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.produto-descricao {
-  font-size: 18px;
-}
-
-.produto-preço {
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
 footer {
   text-align: center;
   background: url("bg.jpg");
@@ -96,4 +48,30 @@ footer {
   color: #ffffff;
   font-size: 13px;
   margin: 20px 0 0;
+}
+
+main {
+  width: 940px ;
+  margin: 0px auto;
+}
+
+form {
+  margin: 40px 0px;
+}
+
+form label, form p {
+  display: block;
+  font-size: 20px;
+  margin: 0px 0px 10px;
+}
+
+.input-pradrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0px;
 }

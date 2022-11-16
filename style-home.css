@@ -60,7 +60,9 @@ nav a:hover {
 
 .titulo-centralizado {
     text-align: center;
+    text-transform: uppercase;
     font-size: 2em;
+    font-weight: bold;
     margin: 0 0 1em;
     clear: left;
 }
@@ -129,6 +131,13 @@ em strong {
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px black;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 
 .mapa {
@@ -161,4 +170,50 @@ footer {
     color: #ffffff;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+/*Dipositivo movel */
+
+@media screen and (max-width: 400px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    .video, .mapa-conteudo {
+        margin: 30px 20px 0px 20px;
+    }
+
+    .conteudo-beneficios li {
+        text-align:center;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav a {
+        font-size: 23px;
+    }
+
+    .titulo-principal {
+        font-size: 45px;
+    }
+
+    .titulo-centralizado {
+        font-size: 23px;
+    }
+
+    .lista-beneficios {
+        width: 100%;
+    }
+
+    .imagem-beneficios {
+        width: 90%;
+        margin: 0 20px;
+    }
+
 }
